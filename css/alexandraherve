@@ -1,0 +1,37 @@
+#blue{
+  background-color: #5585de;
+  font-weight: 900;
+  display: none;
+  }
+
+#orange{
+  background-color: orange;
+  display: inline;
+}
+
+#green{
+  background-color:rgb(23,235,100);
+  display:block;
+  }
+
+#yellow{
+  background-color:yellow;
+}
+
+.ex3{
+  background-color: red;
+  display: block;
+}
+
+.iblock{
+  color: red;
+  background-color:orange;
+  width: 100px;
+  height: 100px;
+  border: 1px solid blue;
+  display:inline-block;
+}
+
+.ex2{
+  display: inline;
+}
