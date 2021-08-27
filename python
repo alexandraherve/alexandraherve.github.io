@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+ 
+This is a temporary script file.
+"""
+class_name = "p5_Deliquents: "
+#error class_name + 5  You can not concentrate a string and number
+student1 = "Carlos"
+top_deliquents = student1 + ", Nicholas, Gionna, Gonzalo"
+class_studnts = class_name + top_deliquents
+ 
+print(class_name)
+ 
+same_name = 2
+third_student = 3
+print(type(same_name))
+student2 = "Carlos" + str(same_name)
+print(student2)
+student3 = "Carlos" + str(third_student)
+ 
+print(student3)
+ 
+grade1 = int(input("what rade did you get in p1"))
+grade2 = int(input("what rade did you get in p2"))
+grade3 = int(input("what rade did you get in p3"))
+grade4 = int(input("what rade did you get in p4"))
+ 
+print("you verify: You sacred:" + "\n" + str(grade1) + "\n" + str(grade2) + "\n" + str(grade3) + "\n" + str(grade4))
+ 
+gpa = (grade1 + grade2 + grade3 + grade4) / 4
+print("GPA: " + str(gpa))
+print(type(gpa))
